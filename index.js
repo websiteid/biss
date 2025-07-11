@@ -85,7 +85,7 @@ function showMainMenu(ctx) {
   ctx.reply(
     `👋 Selamat datang dibot VIP @ujoyp!\n\nPilih paket yang kamu inginkan:\n` +
     `📦 Lokal - Rp2.000\n📦 Cina - Rp2.000\n📦 Asia - Rp2.000\n` +
-    `📦 Amerika - Rp2.000\n📦 Yaoi - Rp2.000\n📦 Paket Lengkap Semua Channel - Rp8.000`,
+    `📦 Amerika - Rp2.000\n📦 Yaoi - Rp2.000\n📦 Paket Lengkap Semua Channel - Rp6.000`,
     Markup.inlineKeyboard([
       [Markup.button.callback('Lokal', 'lokal')],
       [Markup.button.callback('Cina', 'cina')],
